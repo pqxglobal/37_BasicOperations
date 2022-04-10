@@ -10,6 +10,10 @@ int main(){
 
     //subtraction
     result = number2 - number1;
+    std::cout << "result: " << result << std::endl;
+
+    result = number1 - number2;
+    std::cout << "result: " << result << std::endl;
 
     return 0;
 }
