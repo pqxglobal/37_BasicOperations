@@ -15,5 +15,20 @@ int main(){
     result = number1 - number2;
     std::cout << "result: " << result << std::endl;
 
+    //multiplication
+    result = number1 * number2;
+    std::cout << "result: " << result << std::endl;
+
+    //division
+    result = number2 / number1;
+    std::cout << "result: " << result << std::endl;
+
+    //modulus
+    result = number2 % number1;
+    std::cout << "result: " << result << std::endl;
+
+    result = 31 % 10;
+    std::cout << "result: " << result << std::endl;
+
     return 0;
 }
